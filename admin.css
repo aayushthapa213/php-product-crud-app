@@ -1,0 +1,92 @@
+.container{
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.inner_container{
+  background-color: gray;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+h1{
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+form .box{
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  border-radius: 0.5rem;
+  /* padding: 1.2rem; */
+  margin: 1rem 0; 
+}
+
+.box label{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.box input{
+  width: 60%;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+
+.sub{
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.message{
+  display: block;
+  background-color: aquamarine;
+  padding: 1.5rem 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.product-display{
+  margin: 2rem 0;
+  overflow-y: scroll;
+}
+
+.product-display .product-display-table{
+  width: 100%;
+  text-align: center;
+}
+
+.product-display .product-display-table thead{
+  /* padding: 2rem; */
+  font-size: 2rem;
+  background-color:grey ;
+}
+
+.product-display .product-display-table th{
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.product-display .product-display-table td{
+  padding: 1rem;
+  font-size: 2rem;
+  border-bottom: black;
+}
+
+.product-display .product-display-table .btn:first-child{
+  margin-top: 0;
+}
+
+.product-display .product-display-table btn:last-child{
+  background-color: red;
+}
